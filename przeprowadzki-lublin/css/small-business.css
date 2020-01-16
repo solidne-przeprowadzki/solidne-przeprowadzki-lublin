@@ -1,0 +1,257 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+
+ body {
+  font-family: 'Poppins', sans-serif;
+  color:#60574a;
+  background-color: #fff;  
+}
+
+section{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+
+footer{
+background-color: #f2ece0;
+color: #BAB4AB;
+}
+
+.bg-blue{
+  background-color: #154995;
+}
+
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #ff8800;
+  border-color: #ff8800; }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #ff8800;
+    border-color: #ff8800; }
+  .btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(177, 136, 2, 0.5); }
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #ff8800;
+    border-color: #ff8800; }
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff8800;
+    border-color: #ff8800; }
+    .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-primary.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(245, 119, 1, 0.5); }
+
+
+
+
+.bg-secondary{
+background-color: #BAB4AB;
+}
+
+.text-secondary{
+  color: #bab4ab;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+h1{
+  text-shadow: 1px 1px 1px #000;
+}
+
+
+
+h2,h3{
+  color:#154995 ;
+}
+
+.card-title{
+  font-size: 1.2rem;
+  color:#154995
+}
+
+.card-footer {
+  padding: .50rem 1rem;
+  background-color: rgba(0,0,0,.03);
+  border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0.8rem;
+}
+
+
+
+h1{
+ font-size: 1.7rem;
+ 
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+h3{
+  font-size: 1.4rem;
+}
+
+.lead{ font-size: 1.1rem;}
+
+.jumbotron {
+  color: white;
+  background-image: url("../img/przeprowadzki-lublin-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 218px;
+  margin-bottom: 10px;
+}
+
+
+.masthead{
+  margin-top: 115px;
+  margin-bottom: 50px;
+
+}
+
+.masthead-text{
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+@media (max-width: 324px) {  
+  .masthead{
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+
+  .jumbotron {
+    color: white;
+    background-image: url("../img/przeprowadzki-lublin-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 218px;
+    margin-bottom: 5px;
+  }
+
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.8rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #154995;
+}
+ 
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+  .masthead{
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .jumbotron {
+    color: white;
+    background-image: url("../img/przeprowadzki-lublin-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 248px;
+    margin-bottom: 10px;
+  }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .jumbotron {
+    color: white;
+    background-image: url("../img/przeprowadzki-lublin-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 258px;
+    margin-bottom: 5px;
+  }
+  .masthead{
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .jumbotron {
+    color: white;
+    background-image: url("../img/przeprowadzki-lublin-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 10px;
+  }
+
+  h1{
+    font-size: 2.7rem;
+   }
+
+   h2{
+    font-size: 2rem;
+  }
+
+  h3{
+    font-size: 1.7rem;
+  }
+
+  .lead{
+    font-size: 1.4rem;
+  }
+
+  .card-title{
+    font-size: 1.4rem;
+    color:#154995
+  }
+
+   .masthead{
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
